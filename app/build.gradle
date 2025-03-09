@@ -5,9 +5,9 @@ plugins {
 
 android {
     compileSdk 35
-    namespace 'com.mukeshsolanki.snake'
+    namespace 'com.ft.snake'
     defaultConfig {
-        applicationId "com.mukeshsolanki.snake"
+        applicationId "com.ft.snake"
         minSdk 21
         targetSdk 35
         versionCode 1
@@ -39,11 +39,11 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion compose_version
     }
-    packagingOptions {
-        resources {
-            excludes += ''
-        }
-    }
+//    packagingOptions {
+//        resources {
+//            excludes += ''
+//        }
+//    }
 }
 
 dependencies {
